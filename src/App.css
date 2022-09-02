@@ -28,17 +28,19 @@
   display: block;
   margin: 30px;
   /* background-color: aqua; */
-  padding: 10px;
-}
+  padding: 15px;
+} 
 .navigBar a:hover{
   background-color: dodgerblue;
   color: white;
-  font-size: xx-large;
+  /* font-size: xx-large; */
+  border-radius: 20px;
+  
 }
 .bm-burger-button{
   position: fixed;
   top: 32px;
-  left: 32px;
+  left: 15px;
   height: 36px;
   width: 36px;
 }
@@ -51,6 +53,8 @@
   /* background-color: green; */
 }
 .bm-cross{
+  width: 4px !important;
+  height: 30px !important;
   background-color: white;
 }
 .bm-menu-wrap{
@@ -58,15 +62,29 @@
   margin-top: -130px;
   overflow-x: hidden;
   height: 100vh;
+  width: 100% !important;
+  margin: 0px;
   /* position: fixed; */
 
 }
 .bm-item{
   color: blue;
-  font-size: 2em;
+  font-size: 3rem;
   padding: 10px;
   text-decoration: none;
   color: #fff;
+  text-align: center;
+  border-bottom: inset;
+}
+.bm-item:hover{
+  color: cyan !important;
+  font-size: 2.8rem;
+  border-bottom: yellow;
+}
+.bm-item-list{
+  margin: 15%;
+  height: auto !important;
+
 }
 .bm-item::before{
   transition: all 0.5s ease-in-out;
@@ -85,7 +103,32 @@
   margin: 100px;
   background-color: aqua;
 }
+.resumeDownload{
+  width: fit-content;
+    height: 60px;
+    border-radius: 25px;
+}
+.download2 {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 20px;
+  background: #339DFF;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 38px;
+  border-radius: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 170px;
+  text-align: center;
+}
 
+.download2:hover {
+  background: #fff;
+  color: #339DFF;
+  box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+}
 .hey{
   color: blue;
 }
@@ -121,7 +164,7 @@
 .myphoto{
   float: right;
   background-color: cadetblue;
-  border-radius: 40%;
+  border-radius: 100%;
   margin-right: 70px;
   display: inline-block;
   /* width: 10%; */
@@ -129,12 +172,19 @@
   width: 500px;
 }
 
-
+.experiencePage{
+  margin: 20px;
+}
 .experience{
   margin-left: 20px;
   width: 100%;
   height: 100%;
   background-color: pink;
+}
+.experienceTitle{
+  text-align: center;
+  font-size: 2.813rem;
+  color: dodgerblue;
 }
 .timeline{
   /* justify-content: center; */
@@ -208,6 +258,8 @@
   background-color: blue;
 }
 .row{
+  align-items: center;
+  background-color: beige;
   display: inline-flex;
   width: 100%;
 }
@@ -265,6 +317,7 @@
 .contact-heading{
   margin: 30px;
   font-size: 40px;
+  text-align: center;
 }
 .contact-heading span{
   color: dodgerblue;
@@ -305,7 +358,8 @@
   left:0;
   right: 0;
   justify-content: center;
-  display: inline-flex;
+  display: block;
+  text-align: center;
 }
 .contactImage{
   padding: 20px;
@@ -405,6 +459,12 @@
   border-radius: 50%;
 }
 
+.exp{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
 .exp ul{
   list-style: none;
 }
@@ -415,7 +475,7 @@ exp::after{
   position: absolute;
 }
 .exp ul li{
-  width: 50%;
+  /* width: 50%; */
   position: relative;
 }
 .exp ul li:nth-child(odd){
@@ -425,8 +485,20 @@ exp::after{
   /* float: right; */
 }
 .b1{
-  width: 300px;
+  text-align: left;
+  width: 700px;
   /* background-color: blanchedalmond; */
+}
+.b1 h3 {
+  color: blue;
+  font-size: 1.875rem;
+}
+.b1 h2 {
+  color: darkorchid;
+  font-size: 25px;
+}
+.b1 p{
+  font-size: 1.25rem;
 }
 .d2 img{
   height: 200px;
@@ -435,6 +507,11 @@ exp::after{
 .projectTitle{
   font-size: 30px;
   color: blue;
+}
+.projectDetailsDiv{
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
+  height: calc(80vh - 127px);
 }
 .projectDetails{
   font-size: 25px;
@@ -496,10 +573,32 @@ exp::after{
   .head{
     font-size: 40px;
   }
-  @media (max-width: 1100px) {
-    .navigBar ul{
-      flex-direction: column;
-      justify-content: space-between;
-    }
+}
+@media (max-width:1400px) {
+  .row{
+    display: block !important;
+  }
+  .projectTitle{
+    text-align: center !important ;
+  }
+}
+@media (max-width: 1100px) {
+  .navigBar ul{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .horizontalNavigBar{
+    display: none ;
+  }
+}
+@media (max-width:400px) {
+  .contact-heading span{
+    /* font-size: 30px; */
+  }
+  
+}
+@media (max-width:850px){
+  .b1{
+    width: unset;
   }
 }
