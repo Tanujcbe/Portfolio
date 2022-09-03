@@ -49,7 +49,7 @@ function Experience(){
               <div className="b1">
                 <h3>Project Trainee</h3>
                 <h2>Zoho</h2>
-                <p>Working as a Full Stack developer in Zoho Meetings application using Java,PostgresSQL,Nodejs and Handlebars. It is a B2B as well as B2C product which has 500,000+ users. Using Nodejs and Handlebars I have created multiple web pages and and worked with REST API’s using Java,XML JSON, Jquery and JavaScript which helps to access specific user’s data and recordings from the Meeting/Webinar which are created by the user.</p>
+                <p>Working as a Full Stack developer in Zoho Meetings application using Java, PostgresSQL, Nodejs and Handlebars. It is a B2B as well as B2C product which has 500,000+ users. Using Nodejs and Handlebars I have created multiple web pages and and worked with REST API’s using Java, XML, JSON, Jquery and JavaScript which helps to access specific user’s data and recordings from the Meeting/Webinar which are created by the user.</p>
               </div>
             </li>
             <li>

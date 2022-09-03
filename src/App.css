@@ -174,6 +174,7 @@
 
 .experiencePage{
   margin: 20px;
+  margin-right: 0px;
 }
 .experience{
   margin-left: 20px;
@@ -467,6 +468,7 @@
   margin:20px;
   overflow-x: hidden;
   height: calc(100vh - 127px);
+  padding-right: 10px;
 }
 
 .exp ul{
