@@ -185,6 +185,7 @@
   text-align: center;
   font-size: 2.813rem;
   color: dodgerblue;
+  margin-top: 23px;
 }
 .timeline{
   /* justify-content: center; */
@@ -463,6 +464,9 @@
   justify-content: center;
   display: flex;
   text-align: center;
+  margin:20px;
+  overflow-x: hidden;
+  height: calc(100vh - 127px);
 }
 
 .exp ul{
@@ -511,7 +515,7 @@ exp::after{
 .projectDetailsDiv{
   overflow-x: hidden;
   /* overflow-y: scroll; */
-  height: calc(80vh - 127px);
+  height: calc(100vh - 127px);
 }
 .projectDetails{
   font-size: 25px;

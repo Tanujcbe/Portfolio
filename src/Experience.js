@@ -39,7 +39,7 @@ function Experience(){
       }
     }
     return(
-      <div>
+      <div className="experiencePage">
         <div className="experienceTitle">
           Experience
         </div>
