@@ -29,7 +29,7 @@ function About(){
             <span className="hey">Hey ,</span>
             <span className="myName">I'm Tanuj</span>
             <span className="professionName">Full Stack Developer <span className="companyName">@Zoho</span></span>
-	          <a class="download2" target="_blank" href="https://drive.google.com/file/d/1YXgkYbyfvI35y3_UpTOf3ITYNpxPcpEU/view?usp=sharing">My Resume</a>
+	          <a class="download2" target="_blank" href="https://drive.google.com/file/d/1tomSLAsSHCPM5I40_-KRYwH5ak35e7Fb/view?usp=sharing">My Resume</a>
         </div>
       </div>
     </div>
